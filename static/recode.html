@@ -3,10 +3,10 @@
   <head>
     <title>EasyRTC Demo: Multistream calls</title>
     <link rel="stylesheet" type="text/css" href="../easyrtc/easyrtc.css" />
-    <link rel="stylesheet" type="text/cll" href="./css/modal.css" />
+    <link rel="stylesheet" type="text/cll" href="../css/modal.css" />
     <!-- Assumes global locations for socket.io.js and easyrtc.js -->
     <script src="/socket.io/socket.io.js"></script>
-    <script type="text/javascript" src="../js/modal.js"></script>
+    
     <script type="text/javascript" src="../easyrtc/easyrtc.js"></script>
     <script type="text/javascript" src="../easyrtc/labs/easyrtc_recorder.js"></script>
 
@@ -480,5 +480,11 @@ function endRecording() {
   document.getElementById("startRecording").disabled = false;
   document.getElementById("stopRecording").disabled = true;
 }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/modal.js"></script>
+<script>
+    
 </script>
 </html>
